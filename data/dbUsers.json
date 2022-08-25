@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "f5fe177-5186-2574-6568-7b5220e04ae",
+      "name": "Gilson",
+      "secondName": "Conceição",
+      "email": "exemple@gmail.com"
+    },
+    {
+      "id": "1fcc4e-fc21-f51d-8888-1365bed21a24",
+      "name": "Ana",
+      "secondName": "Santos",
+      "email": "anaexemple@gmail.com"
+    },
+    {
+      "id": "be34b7-d26e-e4a3-ea3-0d4aaa6d00b",
+      "name": "Maria",
+      "secondName": "Melo",
+      "email": "mariaexemple@gmail.com"
+    }
+  ]
+}

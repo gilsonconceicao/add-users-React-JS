@@ -1,0 +1,82 @@
+.users_container {
+    background-color: #272a35;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px 20px;
+}
+
+.users_container h2 {
+    color: #ff3556;
+    font-size: 2em;
+}
+
+.header_options, .user_options  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.icons_network {
+    display: flex;
+    list-style-type: none;
+}
+
+.icons_network a {
+    color: #ff3557d7;
+    font-size: 23px;
+    margin: 0 10px;
+}
+
+.list_render_users {
+    margin: 20px 0;
+}
+
+
+/* render list  */
+
+.box_user {
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px;
+    line-height: 1.3em;
+    border-top: 1px solid #ffffff4b;
+}
+
+.box_user button {
+    color: white;
+    font-size: 20px;
+    margin: 0 3px;
+    border-radius: 4px;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.editButton {
+    background-color: #1e90ff;
+}
+
+.removedButton {
+    background-color: #ee4646;
+}
+
+
+@media screen and (max-width: 995px) {
+    .users_container {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .box_user {
+        display: block;
+    }
+
+
+    .icons_network {
+        margin: 30px auto;
+    } 
+
+}

@@ -1,0 +1,49 @@
+input,
+label,
+span {
+    display: block;
+    margin: 10px 0;
+}
+
+.aside_container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    padding: 20px;
+}
+
+.aside_container h2 {
+    color: #ff3556;
+    text-align: center;
+}
+
+.aside_container span {
+    color: #ffffffc4;
+    font-weight: bold;
+}
+
+.aside_container input {
+    width: 100%;
+    background: none;
+    outline: #ff3556;
+    filter: drop-shadow(0 10px 0.4em #ff355777);
+    color: #fff;
+    padding: 7px;
+    font-size: 16px;
+    border: 1px solid #ff3556;
+    border-radius: 4px;
+}
+
+.aside_container input[type='submit'] {
+    background-color: #c2374e;
+    cursor: pointer;
+    filter: drop-shadow(0 10px 0.4em #ff355727);
+}
+
+
+
+@media screen and (max-width: 995px) {
+    .aside_container {
+        display: block;
+
+    }
+}
